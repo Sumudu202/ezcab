@@ -1,6 +1,7 @@
 <?php	
 require_once 'bin/conDB.php';
-conDb();
+//conDb();
+$conn = conDb();
 
 @$currentDrv=$_POST['drvName1'];
  $query_disp="SELECT * FROM driver order by drvId asc";
